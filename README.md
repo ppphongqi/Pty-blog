@@ -1,29 +1,18 @@
-# pty_blog
-
-## Project setup
+# pty的个人博客
 ```
-npm install
+最近空余时间充裕，那就搞它一个博客练练手
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 前端页面技术
 
-### Compiles and minifies for production
-```
-npm run build
-```
+vue-cli直接生成项目（默认配置），安装相应依赖：
+- 数据管理    vuex
+- UI库  (暂定)
+- 接口请求    axios
+- css预处理器 sass
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 后端代码
+### 主要技术栈
+- node
+- vue
+- 数据库(未定)
