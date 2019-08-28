@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    pty
+    <div>啥都还没有么</div>
+      <router-view/>
   </div>
 </template>
 
