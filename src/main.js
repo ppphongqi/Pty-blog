@@ -10,7 +10,6 @@ Vue.use(ElementUI);
 new Vue({
   el: '#app',
   router,
-  Vuex,
-  template:'<App/>',
-  components: {App},
-})
+  // Vuex,
+  render: h => h(App)
+}).$mount("#app")

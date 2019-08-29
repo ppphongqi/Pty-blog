@@ -9,18 +9,8 @@ const router = new Router({
         {
             path:'/',
             name:'首页',
-            component : () => import('../views/out.vue')
-            // children:[
-            //     {
-            //         path:'/',
-            //         name:'首页',
-            //         component: resolve => require(['../views/index.vue'] , resolve),
-            //         metaP:{
-            //             title:'首页'
-            //         }
-            //     }
-            // ]
-        }
+            component:()=>import('../views/index.vue'),
+        },
     ]
 });
 
