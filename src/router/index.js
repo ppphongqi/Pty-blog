@@ -8,8 +8,17 @@ const router = new Router({
     routes:[
         {
             path:'/',
-            name:'首页',
-            component:()=>import('../views/index.vue'),
+            component: resolve => require(['../views/out.vue'],resolve),
+            children:[
+                {
+                    path:'/',
+                    name:'首页',
+                    component:resolve => require(['../views/index.vue'],resolve),
+                    meta:{
+                        title:'首页'
+                    }
+                },
+            ]
         },
     ]
 });

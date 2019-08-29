@@ -1,13 +1,13 @@
 <template>
-    <div></div>
+    <div class="foot"></div>
 </template>
 
 <script>
     export default {
-        name: "index"
+
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 
 </style>

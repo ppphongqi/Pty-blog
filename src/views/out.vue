@@ -1,18 +1,23 @@
 <template>
     <div class="out">
-        //头组件
-        <div class="head">还是啥都还没有哦</div>
+<!--        头组件-->
+        <v-header></v-header>
         <div class="container">
-<!--            <router-view/>-->
+            <router-view/>
         </div>
-        //页脚
+        <v-footer></v-footer>
     </div>
 
 </template>
 
 <script>
+    import vHeader from '../components/header';
+    import vFooter from '../components/footer';
     export default {
-        name: "out"
+        components:{
+            'v-header':vHeader,
+            'v-footer':vFooter,
+        }
     }
 </script>
 
